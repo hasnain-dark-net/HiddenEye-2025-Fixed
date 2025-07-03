@@ -13,14 +13,3 @@ Made with 💻 by Hasnain Dark Net
 ```bash
 sudo apt update
 sudo apt install -y build-essential wget curl libssl-dev zlib1g-dev
-
-<details> <summary><strong>🐍 Step 2: Install Python 3.10</strong></summary>
-```bash
-cd /tmp
-wget https://www.python.org/ftp/python/3.10.13/Python-3.10.13.tgz
-tar -xf Python-3.10.13.tgz
-cd Python-3.10.13
-./configure --enable-optimizations
-make -j$(nproc)
-sudo make altinstall
-
